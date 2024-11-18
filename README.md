@@ -1,1 +1,1 @@
-This notebook compares performances of several portfolio alternatives, constructed using Artificial Bee Colony and Partical Swarm optimization algorithms, based on several optimization criteria options.
+This is a python implementation of Artificial Bee Colony (Karaboga 2005) portfolio optimization. Check out demo notebook for more info.
