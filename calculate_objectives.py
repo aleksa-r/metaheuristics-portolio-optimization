@@ -1,7 +1,7 @@
 import numpy as np  
 from estimate_moments import EstimateReturnMoments
     
-def CalculatePortfolioObjectives(w, R, method='cvar', alpha=0.95):
+def CalculatePortfolioObjectives(w, R, method, alpha):
     w = w.reshape(-1, 1)  
   
     if method.lower() == 'mad':
